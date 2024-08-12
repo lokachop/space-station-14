@@ -1,0 +1,49 @@
+- type: npcVoiceline
+  id: MedibotApproach-1
+  message: approaching-medibot-1
+  audio: /Audio/Machines/Medibot/coming.ogg
+
+- type: npcVoiceline
+  id: MedibotApproach-2
+  message: approaching-medibot-2
+  audio: /Audio/Machines/Medibot/help.ogg
+
+- type: npcVoiceline
+  id: MedibotApproach-3
+  message: approaching-medibot-3
+  audio: /Audio/Machines/Medibot/injured.ogg
+
+- type: weightedRandom
+  id: MedibotApproachVoicelines
+  weights:
+      MedibotApproach-1: 1
+      MedibotApproach-2: 1
+      MedibotApproach-3: 1
+
+- type: npcVoiceline
+  id: MedibotFinish-1
+  message: finish-medibot-1
+  audio: /Audio/Machines/Medibot/feelbetter.ogg
+
+- type: npcVoiceline
+  id: MedibotFinish-2
+  message: finish-medibot-2
+  audio: /Audio/Machines/Medibot/patchedup.ogg
+
+- type: npcVoiceline
+  id: MedibotFinish-3
+  message: finish-medibot-3
+  audio: /Audio/Machines/Medibot/apple.ogg
+
+- type: weightedRandom
+  id: MedibotFinishVoicelines
+  weights:
+      MedibotFinish-1: 1
+      MedibotFinish-2: 1
+      MedibotFinish-3: 1
+
+
+- type: npcVoiceline
+  id: MedibotAdvert-1
+  message: advertisement-medibot-1
+  audio: /Audio/Machines/Medibot/flies.ogg

@@ -19,8 +19,8 @@
             targetMoveKey: TargetCoordinates
 
         - !type:HTNPrimitiveTask
-          operator: !type:SpeakOperator
-            speech: medibot-start-inject
+          operator: !type:MedibotRandomVoicelineOperator
+            voicelines: MedibotApproachVoicelines
             hidden: true
 
         - !type:HTNPrimitiveTask
@@ -43,3 +43,22 @@
         - !type:HTNPrimitiveTask
           operator: !type:MedibotInjectOperator
             targetKey: InjectTarget
+
+        # This works because the MedibotInjectOperator only continues if its sucessful
+        - !type:HTNPrimitiveTask
+          operator: !type:MedibotRandomVoicelineOperator
+            voicelines: MedibotFinishVoicelines
+            hidden: true
+
+        # Wait 3s here to avoid voiceline spam
+        - !type:HTNPrimitiveTask
+          operator: !type:SetFloatOperator
+            targetKey: IdleTime
+            amount: 3
+
+        - !type:HTNPrimitiveTask
+          operator: !type:WaitOperator
+            key: IdleTime
+          preconditions:
+            - !type:KeyExistsPrecondition
+              key: IdleTime
