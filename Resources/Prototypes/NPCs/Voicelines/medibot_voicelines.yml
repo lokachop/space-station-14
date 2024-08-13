@@ -47,3 +47,56 @@
   id: MedibotAdvert-1
   message: advertisement-medibot-1
   audio: /Audio/Machines/Medibot/flies.ogg
+
+- type: npcVoiceline
+  id: MedibotAdvert-2
+  message: advertisement-medibot-2
+  audio: /Audio/Machines/Medibot/surgeon.ogg
+
+- type: npcVoiceline
+  id: MedibotAdvert-3
+  message: advertisement-medibot-3
+  audio: /Audio/Machines/Medibot/catch.ogg
+
+- type: npcVoiceline
+  id: MedibotAdvert-4
+  message: advertisement-medibot-4
+  audio: /Audio/Machines/Medibot/delicious.ogg
+
+- type: npcVoiceline
+  id: MedibotAdvert-5
+  message: advertisement-medibot-5
+  audio: /Audio/Machines/Medibot/radar.ogg
+
+- type: npcVoiceline
+  id: MedibotAdvert-6
+  message: advertisement-medibot-6
+  audio: /Audio/Machines/Medibot/why.ogg
+
+- type: npcVoiceline
+  id: MedibotAdvert-7
+  message: advertisement-medibot-7
+  audio: /Audio/Machines/Medibot/fuck_you.ogg
+
+- type: npcVoiceline
+  id: MedibotAdvert-8
+  message: advertisement-medibot-8
+  audio: /Audio/Machines/Medibot/i_am_chicken.ogg
+
+- type: npcVoiceline
+  id: MedibotAdvert-9
+  message: advertisement-medibot-9
+  audio: /Audio/Machines/Medibot/lost.ogg
+
+- type: weightedRandom
+  id: MedibotAdverts
+  weights:
+      MedibotAdvert-1: 1
+      MedibotAdvert-2: 1
+      MedibotAdvert-3: 1
+      MedibotAdvert-4: 1
+      MedibotAdvert-5: 1
+      MedibotAdvert-6: 1
+      MedibotAdvert-7: 1
+      MedibotAdvert-8: 0.2 # The chicken voiceline should be rarer
+      MedibotAdvert-9: 1

@@ -1,5 +1,5 @@
 using Content.Server.Chat.Systems;
-using Content.Shared.Objectives;
+using Content.Shared.NPC;
 using Content.Shared.Random;
 using Content.Shared.Random.Helpers;
 using Robust.Server.Audio;

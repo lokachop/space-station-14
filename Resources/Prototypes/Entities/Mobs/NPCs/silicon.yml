@@ -292,8 +292,8 @@
     interactFailureString: petting-failure-medibot
     interactSuccessSound:
       path: /Audio/Ambience/Objects/periodic_beep.ogg
-  - type: Advertise
-    pack: MedibotAds
+  - type: VoicelineAdvertise
+    voicelines: MedibotAdverts
   - type: Inventory
     templateId: medibot
 

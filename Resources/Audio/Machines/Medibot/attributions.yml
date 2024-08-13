@@ -1,52 +1,20 @@
-- files: ["catch.ogg"]
+- files: 
+  - "catch.ogg"
+  - "coming.ogg"
+  - "feelbetter.ogg"
+  - "flies.ogg"
+  - "im_different.ogg"
+  - "surgeon.ogg"
+  - "help.ogg"
+  - "patchedup.ogg"
+  - "injured.ogg"
+  - "apple.ogg"
+  - "radar.ogg"
+  - "delicious.ogg"
+  - "why.ogg"
+  - "fuck_you.ogg"
+  - "i_am_chicken.ogg"
+  - "lost.ogg"
   license: "CC-BY-SA-3.0"
   copyright: "Taken from TG station."
-  source: "https://github.com/tgstation/tgstation/blob/d4f678a1772007ff8d7eddd21cf7218c8e07bfc0/sound/voice/medbot/catch.ogg"
-
-- files: ["coming.ogg"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Taken from TG station."
-  source: "https://github.com/tgstation/tgstation/blob/d4f678a1772007ff8d7eddd21cf7218c8e07bfc0/sound/voice/medbot/coming.ogg"
-
-- files: ["feelbetter.ogg"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Taken from TG station."
-  source: "https://github.com/tgstation/tgstation/blob/d4f678a1772007ff8d7eddd21cf7218c8e07bfc0/sound/voice/medbot/feelbetter.ogg"
-
-- files: ["flies.ogg"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Taken from TG station."
-  source: "https://github.com/tgstation/tgstation/blob/d4f678a1772007ff8d7eddd21cf7218c8e07bfc0/sound/voice/medbot/flies.ogg"
-
-- files: ["im_different.ogg"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Taken from TG station."
-  source: "https://github.com/tgstation/tgstation/blob/d4f678a1772007ff8d7eddd21cf7218c8e07bfc0/sound/voice/medbot/im_different.ogg"
-
-- files: ["surgeon.ogg"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Taken from TG station."
-  source: "https://github.com/tgstation/tgstation/blob/d4f678a1772007ff8d7eddd21cf7218c8e07bfc0/sound/voice/medbot/surgeon.ogg"
-
-- files: ["help.ogg"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Taken from TG station."
-  source: "https://github.com/tgstation/tgstation/blob/d4f678a1772007ff8d7eddd21cf7218c8e07bfc0/sound/voice/medbot/help.ogg"
-
-- files: ["patchedup.ogg"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Taken from TG station."
-  source: "https://github.com/tgstation/tgstation/blob/d4f678a1772007ff8d7eddd21cf7218c8e07bfc0/sound/voice/medbot/patchedup.ogg"
-
-- files: ["injured.ogg"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Taken from TG station."
-  source: "https://github.com/tgstation/tgstation/blob/d4f678a1772007ff8d7eddd21cf7218c8e07bfc0/sound/voice/medbot/injured.ogg"
-
-- files: ["apple.ogg"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Taken from TG station."
-  source: "https://github.com/tgstation/tgstation/blob/d4f678a1772007ff8d7eddd21cf7218c8e07bfc0/sound/voice/medbot/apple.ogg"
-
-
-
+  source: "https://github.com/tgstation/tgstation/blob/d4f678a1772007ff8d7eddd21cf7218c8e07bfc0/sound/voice/medbot/"

@@ -2,7 +2,7 @@ using Robust.Shared.Audio;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 
-namespace Content.Shared.Objectives;
+namespace Content.Shared.NPC;
 
 /// <summary>
 /// Stores the localized string and audio clip for a voiceline
