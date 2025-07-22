@@ -9,3 +9,9 @@
   values:
     prefix: thankyou-space-villain-
     count: 12
+
+- type: localizedDataset
+  id: TestGameGoodbyes
+  values:
+    prefix: thankyou-test-game-
+    count: 2

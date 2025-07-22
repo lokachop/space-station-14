@@ -221,3 +221,41 @@
     maximumWait: 240
   - type: SpeakOnUIClosed
     pack: BlockGameGoodbyes
+
+
+
+- type: entity
+  id: TestGameArcade
+  description: An arcade machine developed by a stupid person, who would even think to make such a thing?
+  name: test game arcade
+  parent: ArcadeBase
+  components:
+  - type: Sprite
+    sprite: Structures/Machines/arcade.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: arcade
+    - map: ["computerLayerScreen"]
+      state: screen_testgame
+    - map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      state: panel
+      visible: false
+  - type: TestGameArcade
+  - type: ActivatableUI
+    key: enum.BlockGameUiKey.Key
+  - type: ActivatableUIRequiresPower
+  - type: StationAiWhitelist
+  - type: UserInterface
+    interfaces:
+      enum.BlockGameUiKey.Key:
+        type: BlockGameBoundUserInterface
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface
+  - type: Computer
+    board: TestGameArcadeComputerCircuitboard
+  - type: Advertise
+    pack: TestGameAds
+    minimumWait: 60 # Arcades are noisy
+    maximumWait: 240
+  - type: SpeakOnUIClosed
+    pack: TestGameGoodbyes

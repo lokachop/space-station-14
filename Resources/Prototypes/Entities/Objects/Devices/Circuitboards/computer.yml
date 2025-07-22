@@ -428,6 +428,15 @@
 
 - type: entity
   parent: BaseComputerCircuitboard
+  id: TestGameArcadeComputerCircuitboard
+  name: test game arcade board
+  description: A computer printed circuit board for a test game arcade cabinet.
+  components:
+    - type: ComputerBoard
+      prototype: TestGameArcade
+
+- type: entity
+  parent: BaseComputerCircuitboard
   id: ParticleAcceleratorComputerCircuitboard
   name: PA control box computer board
   description: A computer printed circuit board for a particle accelerator control box.
